@@ -21,4 +21,8 @@ export class PostsComponent implements OnInit {
       // });
   }
 
+  listenClick( id: number ) {
+    console.log('Click en: ', id) //recibimos la variable y la mostramos
+  }
+
 }
